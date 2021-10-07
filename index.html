@@ -10,71 +10,136 @@
     <title>Olimp KZ</title>
 </head>
 <body>
-    <div class="about-interface">
-        <div class="dropdown">
-            <button class="dropbtn">Язык интерфейса</button>
-            <div class="dropdown-content">
-              <a class="language" href="#">Русский</a>
-              <a class="language" href="#">Қазакша</a>
-              <a class="language" href="#">English</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">Формат коэффициентов</button>
-            <div class="dropdown-content">
-              <a class="language" href="#">Десятичные (1.75)</a>
-              <a class="language" href="#">Дробные (3/4)</a>
-            </div>
-          </div>
-          <a href="enter.html" class="enter">Войти</a>
-          <!-- <div class="dropdown">
-            <button class="dropbtn">Часовой пояс</button>
-            <div class="dropdown-content">
-              <p class="soon">Soon...</p>
-            </div>
-          </div> -->
-    </div>
-    <div class="olimp-bet">
-        <a href="index.html">
-            <div class="logo"><img src="src/image/olimp-logo.png" alt=""></div>
-        </a>
-        <div class="games">
-            <a href="#" class="live-game">LIVE</a>
-        </div>
-        <div class="games">
-            <a href="#" class="lines">ЛИНИЯ</a>
-        </div>
-        <div class="games">
-            <a href="#" class="fast-game">БЫСТРЫЕ ИГРЫ</a>
-        </div>
-        <div class="registration">
-            <a class="reg" href="enter.html">ЗАРЕГИСТРИРОВАТЬСЯ</a>
-        </div>
-    </div>
-    <div class="bottom-menu2">
-        <a class="bottom-menu-info-bonus" href="#">БОНУСЫ И АКЦИИ</p>
-        <div class="bottom-menu3">
-            <a class="bottom-menu-info-res" href="#">РЕЗУЛЬТАТЫ</p>
-        </div>
-        <div class="bottom-menu4">
-            <a class="bottom-menu-info-stat" href="#">СТАТИСТИКА</p>
-        </div>
-        <div class="bottom-menu5">
-            <a class="bottom-menu-info-rules" href="#">ПРАВИЛА</p>
-        </div>
-        <div class="bottom-menu6">
-            <a class="bottom-menu-info-supp" href="support.html">ПОДДЕРЖКА</p>
-        </div>
-        <div class="bottom-menu7">
-            <a class="bottom-menu-info-qa" href="#">ВОПРОС-ОТВЕТ</p>
-        </div>
-        <div class="bottom-menu8">
-            <a class="bottom-menu-info-about-us" href="#">О НАС</p>
-        </div>
-    </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2 test ">
+            <div class="col p-0">
+                <div class="about-interface">
+                    <div class="dropdown">
+                        <button class="dropbtn">Язык интерфейса</button>
+                        <div class="dropdown-content">
+                          <a class="language" href="#">Русский</a>
+                          <a class="language" href="#">Қазакша</a>
+                          <a class="language" href="#">English</a>
+                        </div>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn">Формат коэффициентов</button>
+                        <div class="dropdown-content">
+                          <a class="language" href="#">Десятичные (1.75)</a>
+                          <a class="language" href="#">Дробные (3/4)</a>
+                        </div>
+                      </div>
+                      <a href="enter.html" class="enter">Войти</a>
+                      <!-- <div class="dropdown">
+                        <button class="dropbtn">Часовой пояс</button>
+                        <div class="dropdown-content">
+                          <p class="soon">Soon...</p>
+                        </div>
+                      </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row"> -->
+           
+            <!-- <div class="olimp-bet">
+                <a href="index.html">
+                    <div class="logo"><img src="src/image/olimp-logo.png" alt=""></div>
+                </a>
+                <div class="games">
+                    <a href="#" class="live-game">LIVE</a>
+                </div>
+                <div class="games">
+                    <a href="#" class="lines">ЛИНИЯ</a>
+                </div>
+                <div class="games">
+                    <a href="#" class="fast-game">БЫСТРЫЕ ИГРЫ</a>
+                </div>
+                <div class="registration">
+                    <a class="reg" href="enter.html">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+                </div>
+            </div> -->
+        <!-- </div> -->
+        
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light olimp-bet justify-content-between">
+        <!-- <div class="olimp-bet"> -->
+            <a class="navbar-brand" href="index.html">
+                <div class="logo"><img src="src/image/olimp-logo.png" alt=""></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav d-flex">
+                <li class="nav-item">
+                    <div class="games">
+                        <a href="#" class="live-game nav-link">LIVE</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="games">
+                        <a href="#" class="lines nav-link">ЛИНИЯ</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="games">
+                        <a href="#" class="lines nav-link">БЫСТРЫЕ ИГРЫ</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="games">
+                        <a class="reg nav-link" href="enter.html">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+                    </div>
+                </li>
+              </ul>
+            <!-- </div> -->
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="bottom-menu2">
+                    <!-- <div class="col"><a class="bottom-menu-info-bonus" href="#">БОНУСЫ И АКЦИИ</a></div> -->
+                    <div class="col">
+                        <div class="bottom-menu3">
+                            <a class="bottom-menu-info-res" href="#">РЕЗУЛЬТАТЫ</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bottom-menu4">
+                            <a class="bottom-menu-info-stat" href="#">СТАТИСТИКА</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bottom-menu5">
+                            <a class="bottom-menu-info-rules" href="#">ПРАВИЛА</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bottom-menu6">
+                            <a class="bottom-menu-info-supp" href="support.html">ПОДДЕРЖКА</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bottom-menu7">
+                            <a class="bottom-menu-info-qa" href="#">ВОПРОС-ОТВЕТ</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bottom-menu8">
+                            <a class="bottom-menu-info-about-us" href="#">О НАС</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 test ">
                 <div class="now">
                     <div class="sports2-bet">
                         <ul>
@@ -106,45 +171,89 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 test">
-                <img src="src/image/assurance.png" alt="" class="ins">
-                <div class="matches">
-                   <div class="matches-live">
-                       <p class="m-live">LIVE</p>
-                   </div>
-                   <div class="sports">
-                       <a href="#" class="sportss">ФУТБОЛ</a>
-                   </div>
-                   <div class="sports">
-                    <a href="#" class="sportss">ТЕННИС</a>
+            <div class="col-md-10 d-flex flex-column">
+                <div class="col-md-10 test d-none d-md-block">
+                    <div class="jumbotron jumbotron-fluid">
+                        <!-- <div class="container p-0"> -->
+                            <img src="src/image/assurance.png" alt="">
+                        <!-- </div> -->
+                      </div>
+                    <!-- <img src="src/image/assurance.png" alt="" class="ins img-fluid"> -->
+    
+                    <!-- <div class="matches d-flex flex-column">
+                       <div class="matches-live">
+                           <p class="m-live">LIVE</p>
+                       </div>
+                       <div class="sports">
+                           <a href="#" class="sportss">ФУТБОЛ</a>
+                       </div>
+                       <div class="sports">
+                        <a href="#" class="sportss">ТЕННИС</a>
+                    </div>
+                    <div class="sports">
+                        <a href="#" class="sportss">БАСКЕТБОЛ</a>
+                    </div>
+                    <div class="sports">
+                        <a href="#" class="sportss">ХОККЕЙ</a>
+                    </div>
+                    </div> -->
+    
+                    <!-- <div class="sport-images">
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                    </div>
+                    <div class="sport-images">
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                    </div> -->
                 </div>
-                <div class="sports">
-                    <a href="#" class="sportss">БАСКЕТБОЛ</a>
+                <div class="col">
+                    <div class="matches d-flex flex-column">
+                        <div class="matches-live">
+                            <p class="m-live">LIVE</p>
+                        </div>
+                        <div class="sports">
+                            <a href="#" class="sportss">ФУТБОЛ</a>
+                        </div>
+                        <div class="sports">
+                         <a href="#" class="sportss">ТЕННИС</a>
+                     </div>
+                     <div class="sports">
+                         <a href="#" class="sportss">БАСКЕТБОЛ</a>
+                     </div>
+                     <div class="sports">
+                         <a href="#" class="sportss">ХОККЕЙ</a>
+                     </div>
+                     </div>
                 </div>
-                <div class="sports">
-                    <a href="#" class="sportss">ХОККЕЙ</a>
-                </div>
-                </div>
-                <div class="sport-images">
-                    <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
-                    <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
-                </div>
-                <div class="sport-images">
-                    <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
-                    <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                <div class="col">
+                    <div class="sport-images">
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                    </div>
+                    <div class="sport-images">
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                        <p><a href="#"><img src="src/image/sport.png" alt=""></a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <p class="igra">Отвественная игра</p>
-        <p><a href="https://vk.com/olimpbetkz"><img src="src/image/vk.png" alt=""></a></p>
-        <p><a href="https://www.instagram.com/olimpbet_russia/?hl=ru"><img src="src/image/inst.png" alt=""></a></p>
-        <p><a href="https://apps.apple.com/kz/app/id1496975315?af_prt=olimpbet&pid=olimpbet.kz"><img src="src/image/ios-removebg-preview.png" alt=""></a></p>
-        <p><a href="#"><img src="src/image/android-removebg-preview.png" alt=""></a></p>
-        <p><a href="#"><img src="src/image/mobile-version-removebg-preview.png" alt=""></a></p>
-        <p class="copyright">Copyright © 2021 ТОО «NetBet»</p>
-    </footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-0">
+                <footer class="footer">
+                    <p class="igra">Отвественная игра</p>
+                    <p class="d-inline"><a href="https://vk.com/olimpbetkz"><img src="src/image/vk.png" alt=""></a></p>
+                    <p class="d-inline"><a href="https://www.instagram.com/olimpbet_russia/?hl=ru"><img src="src/image/inst.png" alt=""></a></p>
+                    <p class=""><a href="https://apps.apple.com/kz/app/id1496975315?af_prt=olimpbet&pid=olimpbet.kz"><img src="src/image/ios-removebg-preview.png" alt=""></a></p>
+                    <p class="d-inline"><a href="#"><img src="src/image/android-removebg-preview.png" alt=""></a></p>
+                    <p class="d-inline"><a href="#"><img src="src/image/mobile-version-removebg-preview.png" alt=""></a></p>
+                    <p class="copyright">Copyright © 2021 ТОО «NetBet»</p>
+                </footer>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
